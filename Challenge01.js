@@ -7,6 +7,7 @@ function EncriptarTexto(){
     Salida += String.fromCharCode(Entrada.value.charCodeAt(i) + 1);
   }
   document.getElementById('SalidaTexto').value = Salida;
+  document.getElementById("EntradaTexto").value ="";
 }
 
 //creamos la funcion para desencriptar el texto
@@ -18,7 +19,10 @@ function DesencriptarTexto(){
     Salida += String.fromCharCode(Entrada.charCodeAt(i) - 1);
   }
   document.getElementById('SalidaTexto').value = Salida;
+  document.getElementById("EntradaTexto").value ="";
+
 }
+
 
 //funcion para copiar texto
 function CopiarTexto(){
