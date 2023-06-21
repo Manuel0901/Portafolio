@@ -1,17 +1,18 @@
 header{
-    padding: 2px 4px;
-    background-color: rgb(75, 151, 170);
+    padding: 10px 4px;
+    background:linear-gradient(blanchedalmond,black);
     
  }
 header h1{
    font-family:fantasy;
    text-align: center;
+   color:#FAD6A5;
 }
  .contenedor{
     text-align: center;
-    background-color: aquamarine;
     padding:100px;
     vertical-align: top;
+    background:url(imagen1.jpg);
     
  }
 #EntradaTexto{
@@ -34,9 +35,10 @@ header h1{
  
  
  footer{
+  height: 50px;
    text-align: center;
-   background: url(imagenReferencia.jpg);
    padding:100px;
+   background-color: #FAD6A5;
    
  }
 footer p{
@@ -45,6 +47,7 @@ footer p{
   right: 1%;
   left: 8%;
   font-size: 12px;
+  font-weight: bold;
 }
 
  button{
@@ -67,4 +70,5 @@ img{
 }
 footer .pie{
   font-weight: bold;
+  background-color:#FAD6A5;
 }
